@@ -1,0 +1,22 @@
+.form-grid {
+  max-width: 500px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-row input {
+  padding: 0.4rem;
+  width: 100%;
+  box-sizing: border-box;
+}

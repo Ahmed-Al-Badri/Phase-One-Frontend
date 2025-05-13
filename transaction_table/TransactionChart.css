@@ -1,0 +1,30 @@
+.transaction-chart {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+}
+
+.transaction-chart th,
+.transaction-chart td {
+  border: 1px solid #555;
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+.transaction-chart th {
+  background-color: #222;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.transaction-chart tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+.transaction-chart tr:hover {
+  background-color: #383838;
+  transition: background-color 0.2s ease-in-out;
+}
